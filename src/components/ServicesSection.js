@@ -10,32 +10,32 @@ const ServicesSection = () =>{
     return(
         <div className="services">
             <div className="description">
-                <h2>
+                <h2 className="title">
                     High <span>quality</span> services. 
                 </h2>
                 <div className="cards">
-                    <div className="card">
+                    <div className="card1">
                         <div className="icon">
                             <img src={clock} alt="clock" />
                             <h3>Efficient</h3>
                         </div>
                         <p>We have workers all over the world, allowing us to get work done 24/7.</p>
                     </div>
-                    <div className="card">
+                    <div className="card2">
                         <div className="icon">
                             <img src={teamwork} alt="teamwork" />
                             <h3>Team Work</h3>
                         </div>
                         <p>We have workers all over the world, allowing us to get work done 24/7.</p>
                     </div>
-                    <div className="card">
+                    <div className="card3">
                         <div className="icon">
                             <img src={diaphragm} alt="diaphragm" />
                             <h3>Diaphragm</h3>
                         </div>
                         <p>We have workers all over the world, allowing us to get work done 24/7.</p>
                     </div>
-                    <div className="card">
+                    <div className="card4">
                         <div className="icon">
                             <img src={money} alt="money" />
                             <h3>Affordable</h3>
@@ -43,9 +43,9 @@ const ServicesSection = () =>{
                         <p>We have workers all over the world, allowing us to get work done 24/7.</p>
                     </div>
                 </div>
-            </div>
-            <div className="image">
-                <img src={home2} alt="home" />
+                <div className="image">
+                    <img src={home2} alt="home" />
+                </div>
             </div>
         </div>
     );

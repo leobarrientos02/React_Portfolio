@@ -236,4 +236,8 @@ p {
 .FAQ .answer p {
   padding: 1rem 0rem;
 }
+
+nav {
+  display: block;
+}
 /*# sourceMappingURL=app.css.map */

@@ -191,4 +191,49 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.FAQ {
+  padding: 5rem;
+  display: block;
+}
+
+.FAQ span {
+  display: block;
+}
+
+.FAQ .title {
+  padding-bottom: 4rem;
+  color: white;
+}
+
+.FAQ h2 {
+  padding-bottom: 2rem;
+  font-weight: lighter;
+}
+
+.FAQ .faq-line {
+  background: #cccccc;
+  height: 0.2rem;
+  margin: 2remm 0rem;
+  width: 100%;
+}
+
+.FAQ .questions {
+  padding: 3rem 0rem;
+  cursor: pointer;
+}
+
+.FAQ .questions h4 {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.FAQ .answer {
+  padding: 2rem 0rem;
+}
+
+.FAQ .answer p {
+  padding: 1rem 0rem;
+}
 /*# sourceMappingURL=app.css.map */

@@ -1,0 +1,36 @@
+.FAQ {
+  padding: 5rem;
+  display: block;
+  span {
+    display: block;
+  }
+  .title {
+    padding-bottom: 4rem;
+    color: white;
+  }
+  h2 {
+    padding-bottom: 2rem;
+    font-weight: lighter;
+  }
+  .faq-line {
+    background: #cccccc;
+    height: 0.2rem;
+    margin: 2remm 0rem;
+    width: 100%;
+  }
+  .questions {
+    padding: 3rem 0rem;
+    cursor: pointer;
+    h4 {
+      color: white;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+  }
+  .answer {
+    padding: 2rem 0rem;
+    p {
+      padding: 1rem 0rem;
+    }
+  }
+}
